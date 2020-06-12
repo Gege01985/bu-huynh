@@ -1,0 +1,165 @@
+body {
+  font-family: Montserrat;
+}
+
+#title {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQGt_OnKF_zELMRjNBbx7aHHH7EKdx279zAwcH2DOBQI1T4MAvW&usqp=CAU);
+  background-size: 50%;
+  box-shadow: 2px 2px 2px;
+  padding: 25px 10px 10px 10px;
+
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+a{
+  color: red;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+}
+
+p{
+  color: #8f8f8f;
+}
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+  color: #000;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #000;
+}
+/* download button */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.hat-image{
+  padding-bottom: 10%;
+}
+/* title image */
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 30%;
+
+
+
+}
+
+/* features Section */
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+
+
+
+
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* testimonials section */
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-image{
+  width: 50%;
+
+  margin: 20px;
+}
+.spring-roll-image{
+  width: 30%;
+}
+
+.kaffe-image{
+  width: 30%;
+}
+#press{
+  background-color: #32cd32;
+  text-align: center;
+  padding: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 40px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+
+  padding:100px;
+  text-align: center;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+#footer{
+  text-align: center;
+  padding: 1%;
+}
+
+@media (max-width:1028px){
+
+#title {
+  text-align: center;
+}
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
